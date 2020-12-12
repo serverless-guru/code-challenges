@@ -2,7 +2,11 @@
 
 ## The Challenge
 
-Build an AWS AppSync API which supports CRUD (Create, Read, Update, Delete) functionality.
+Build a Serverless Framework API with AWS AppSync which supports CRUD functionality (Create, Read, Update, Delete) and has Serverless Pro CI/CD configured.
+
+You can take screenshots of the Serverless Pro setup and include them in the README.
+
+The CI/CD should trigger a deployment based on a git push to the master branch which goes through and deploys the backend Serverless Framework API.
 
 ### Requirements
 
@@ -10,7 +14,9 @@ Build an AWS AppSync API which supports CRUD (Create, Read, Update, Delete) func
 
 2. The AppSync API should store data in DynamoDB
 
-3. The template should be fully working, deployable, and support multi-stage deployments
+3. Serverless Pro should be leveraged to build the CI/CD pipeline and support multi-stage deployments
+
+4. The template should be fully working and documented
 
 4. A public GitHub repository must be shared with frequent commits
 
@@ -20,4 +26,4 @@ Please spend only what you consider a reasonable amount of time for this.
 
 ## Optionally
 
-Create a frontend with ReactJS or Vue.js which uses the Amplify library to connect to your AppSync API and store the response.
+Create a frontend with ReactJS and Material UI which uses the Amplify library to connect to your AppSync API and store the response.
