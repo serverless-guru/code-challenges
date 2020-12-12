@@ -26,4 +26,4 @@ Please spend only what you consider a reasonable amount of time for this.
 
 ## Optionally
 
-Create a frontend with ReactJS and Material UI which uses the Amplify library to connect to your AppSync API and store the response.
+Create a frontend with ReactJS and Material UI which uses the Amplify library to connect to your AppSync API for the CRUD functionality.
