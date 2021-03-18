@@ -14,7 +14,7 @@ The CI/CD should trigger a deployment based on a git push to the master branch w
 
 2. The AppSync API should store data in DynamoDB
 
-3. There should be 4-5 lambdas for each CRUD functionality (Create, Read, Update, Delete) *don't use mapping templates directly to DynamoDB from AppSync
+3. There should be 4-5 lambdas that include the following CRUD functionality (Create, Read, Update, Delete) *don't use mapping templates directly to DynamoDB from AppSync
 
 3. Build the CI/CD pipeline to support multi-stage deployments
 
