@@ -2,7 +2,7 @@
 
 ## The Challenge
 
-Build a Serverless Framework API with AWS AppSync which supports CRUD functionality (Create, Read, Update, Delete) and use GitHub Actions CI/CD pipeline, AWS CodePipeline, or Serverless Pro CI/CD.
+Build a Serverless Framework API with AWS AppSync which supports CRUD functionality (Create, Read, Update, Delete) *don't use mapping templates directly to DynamoDB from AppSync and use GitHub Actions CI/CD pipeline, AWS CodePipeline, or Serverless Pro CI/CD.
 
 You can take screenshots of the CI/CD setup and include them in the README.
 
