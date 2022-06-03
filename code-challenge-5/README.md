@@ -27,3 +27,13 @@ The CI/CD should trigger a deployment based on a git push to the master branch w
 5. A video should be recorded (www.loom.com) of you talking over the application code, IAC, and any additional areas you want to highlight in your solution to demonstrate additional skills
 
 Please spend only what you consider a reasonable amount of time for this.
+
+## Optionally
+
+Please feel free to include any of the following to show additional experience:
+
+1. Make the project fit a specific business case e.g. Coffee Shop APIs vs Notes CRUD directly from AWS docs
+2. AWS Lambda packaging
+3. Organization of YAML files
+4. Bash/other scripts to support deployment
+5. Unit tests, integration tests, etc
