@@ -14,7 +14,7 @@ The CI/CD should trigger a deployment based on a git push to the master branch w
 
 0. All application code must be written using NodeJS, Typescript is acceptable as well
 
-1. All AWS Infrastructure needs to be automated with IAC using [Serverless Framework](https://www.serverless.com) and/or CloudFormation as needed
+1. All AWS Infrastructure needs to be automated with IAC using [Serverless Framework](https://www.serverless.com)
 
 2. The API Gateway REST API should store data in DynamoDB
 
