@@ -6,7 +6,7 @@
 
   
 
-**First Part: Serverless Backend**
+### First Part: Serverless Backend
 
 Build a Serverless Framework REST API with AWS API Gateway which supports CRUD functionality (Create, Read, Update, Delete) *don't use service proxy integration directly to DynamoDB from API Gateway
 
@@ -24,7 +24,7 @@ The CI/CD should trigger a deployment based on a git push to the master branch w
 
   
 
-**Second Part: React Frontend**
+### Second Part: React Frontend
 
 Build a frontend application in React that connects to the serverless backend application. The React application must use all 4 CRUD functionality.
 
