@@ -1,14 +1,14 @@
-# AWS SAM to Serverless Framework Migration
+# AWS SAM Migration
 
 ## The Challenge
 
-Take an AWS SAM template and migrate it to Serverless Framework.
+Take an AWS SAM template and migrate it to Serverless Framework or AWS CDK.
 
 ### Requirements
 
-1. The AWS SAM template should be converted to a serverless framework template
+1. The AWS SAM template should be converted to Serverless Framework or AWS CDK
 
-2. AWS SAM extra properties which serverless framework doesn't support should be removed
+2. AWS SAM-specific properties that the chosen framework does not support should be removed or replaced
 
 3. All properties such as AWS Lambda memory size should be modified to use the proper casing and location
 
@@ -16,11 +16,11 @@ Take an AWS SAM template and migrate it to Serverless Framework.
 
 5. A public GitHub repository must be shared with frequent commits
 
-6. A video should be recorded (www.loom.com) of you talking over the application code, IAC, and any additional areas you want to highlight in your solution to demonstrate additional skills
+6. A video should be recorded (www.loom.com) of you talking over the application code, IaC, and any additional areas you want to highlight in your solution to demonstrate additional skills
 
 Please spend only what you consider a reasonable amount of time for this.
 
-Take this AWS SAM template and turn it into Serverless Framework. High level instructions below.
+Take this AWS SAM template and turn it into Serverless Framework or AWS CDK. High level instructions below.
 
 ## More Information
 
@@ -44,29 +44,28 @@ Take this AWS SAM template and turn it into Serverless Framework. High level ins
 
 ## Goal
 
-1. Convert this AWS SAM template to Serverless Framework
+1. Convert this AWS SAM template to Serverless Framework or AWS CDK
 
-2. Remove all unecessary resources that Serverless Framework creates automatically
+2. Remove all unnecessary resources that the chosen framework creates automatically
 
-3. Replace all intrinsic functions with the Serverless Framework equivalent
+3. Replace intrinsic functions with the chosen framework's equivalent syntax or construct patterns
 
 4. Update all AWS resource names to be dynamic by stage
 
 5. Update all hardcoded region/stage values to be dynamic
 
-5. Split the resources up into separate serverless.yml files based on logical groupings and isolation of resources
+6. Split the resources into separate files or stacks based on logical groupings and isolation of resources
 
-6. Use Serverless Framework to add X-Ray tracing, API Gateway REST API logging, and lambda 
-packaging to only include the index.js file
+7. Add X-Ray tracing, API Gateway REST API logging, and Lambda packaging or bundling so only required application files are deployed
 
-7. Add dynamic stage/region flags
+8. Add dynamic stage/region configuration
 
-8. Send over to Serverless Guru for review
+9. Send over to Serverless Guru for review
 
 ## Bonus
 
-1. Add Serverless Framework Pro outputs to have each isolated serverless.yml communicate together
+1. Add framework outputs so isolated services or stacks can communicate together
 
-2. Setup Serverless Framework Pro AWS IAM role deployments versus using a local profile
+2. Set up CI/CD deployments using an AWS IAM role instead of a local profile
 
-3. Move the clientId and clientSecret to Serverless Framework Pro profiles for dev and prod
+3. Move the clientId and clientSecret to a secure parameter store or secrets manager for dev and prod
